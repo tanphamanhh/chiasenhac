@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--top_bar-->
+    <string name="top_bar_default_title">Title</string>
+    <string name="top_bar_cancel">Hủy bỏ</string>
+    <string name="top_bar_search_hint">Tìm kiếm</string>
+
+</resources>

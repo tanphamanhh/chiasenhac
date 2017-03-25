@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/home_menu_padding_5"
+    android:paddingRight="@dimen/home_menu_padding_5"
+    android:paddingTop="@dimen/home_menu_padding_20"
+    android:paddingBottom="@dimen/home_menu_padding_20"
+    android:layout_height="@dimen/home_menu_title_height">
+    <ImageView
+        android:src="@drawable/home_menu_album"
+        android:id="@+id/imgTitleTypeHomeMenuTitleItem"
+        android:layout_width="@dimen/home_menu_title_image_size"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/seeMoreHomeMenuTitleItem"
+        android:gravity="center_vertical"
+        android:text="@string/home_menu_see_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_marginRight="@dimen/home_menu_padding_10"
+        android:id="@+id/playHomeMenuTitleItem"
+        android:layout_toLeftOf="@id/seeMoreHomeMenuTitleItem"
+        android:src="@drawable/home_menu_play"
+        android:layout_width="@dimen/home_menu_title_play_button_width"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/txvTitleHomeMenuTitleItem"
+        android:lines="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/home_menu_padding_10"
+        android:paddingLeft="@dimen/home_menu_padding_10"
+        android:text="@string/home_menu_default_title"
+        android:textStyle="bold"
+        android:textSize="@dimen/home_menu_title_text_size_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/imgTitleTypeHomeMenuTitleItem"
+        android:layout_toLeftOf="@id/playHomeMenuTitleItem"/>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/bottom_bar_padding"
+    android:background="@color/colorBottomBarBackground"
+    tools:context="com.dev.tanphamanh.chiasenhac.bottombar.screen.BottomBarScr">
+    <ImageView
+        android:id="@+id/homeBottomBar"
+        android:layout_marginLeft="@dimen/bottom_bar_margin"
+        android:layout_marginRight="@dimen/bottom_bar_margin"
+        android:src="@drawable/bottom_bar_home_icon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/exploreBottomBar"
+        android:layout_marginLeft="@dimen/bottom_bar_margin"
+        android:layout_marginRight="@dimen/bottom_bar_margin"
+        android:src="@drawable/bottom_bar_explore_icon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/personalBottomBar"
+        android:layout_marginLeft="@dimen/bottom_bar_margin"
+        android:layout_marginRight="@dimen/bottom_bar_margin"
+        android:src="@drawable/bottom_bar_personal_icon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/settingBottomBar"
+        android:layout_marginLeft="@dimen/bottom_bar_margin"
+        android:layout_marginRight="@dimen/bottom_bar_margin"
+        android:src="@drawable/bottom_bar_setting_icon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+</LinearLayout>

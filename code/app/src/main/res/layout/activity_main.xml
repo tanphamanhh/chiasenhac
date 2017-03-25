@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dev.tanphamanh.chiasenhac.actitvity.screen.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/bottomBarMain"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/topBarMain"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height">
+
+    </FrameLayout>
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@id/bottomBarMain"-->
+        <!--android:id="@+id/prevContentMain">-->
+    <!--</FrameLayout>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomBarMain"
+        android:layout_below="@id/topBarMain"
+        android:id="@+id/crrContentMain">
+    </FrameLayout>
+
+</RelativeLayout>

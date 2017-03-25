@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--bottom bar-->
+    <dimen name="bottom_bar_height">40dp</dimen>
+    <dimen name="bottom_bar_padding">10dp</dimen>
+    <dimen name="bottom_bar_margin">10dp</dimen>
+</resources>

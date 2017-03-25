@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_menu_see_more">Xem thêm</string>
+    <string name="home_menu_default_title">Title</string>
+    <string name="home_menu_title">Trang chủ</string>
+    <string name="home_menu_vietnam_ranking_title">BXH Nhạc Việt Nam</string>
+    <string name="home_menu_vietnam_ranking_url">http://chiasenhac.vn/mp3/vietnam/</string>
+    <string name="home_menu_new_sharing_title">Mới chia sẻ</string>
+    <string name="home_menu_new_sharing_url">http://chiasenhac.vn/new.html</string>
+    <string name="home_menu_new_download_title">Download mới nhất</string>
+    <string name="home_menu_new_download_url">http://chiasenhac.vn/down.html</string>
+    <string name="home_menu_us_uk_ranking_title">BXH Nhạc US-UK</string>
+    <string name="home_menu_new_album_title">Album mới</string>
+
+    <string name="home_menu_lossless_icon">LL</string>
+</resources>

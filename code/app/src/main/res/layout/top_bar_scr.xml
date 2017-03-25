@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_bar_height"
+    android:background="@color/colorBlack"
+    android:padding="@dimen/top_bar_padding"
+    tools:context="com.dev.tanphamanh.chiasenhac.topbar.screen.TopBarScr">
+    <RelativeLayout
+        android:id="@+id/contentTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/defaultLayoutTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/searchRightIconTopBar"
+                android:src="@drawable/top_bar_search"
+                android:layout_width="@dimen/top_bar_search_icon_size"
+                android:layout_height="@dimen/top_bar_search_icon_size" />
+            <TextView
+                android:id="@+id/titleTopBar"
+                android:gravity="center"
+                android:textSize="@dimen/top_bar_text_size_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/top_bar_default_title"
+                android:textColor="@color/colorWhite"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/searchLayoutTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/top_bar_item_margin"
+                android:id="@+id/searchLeftIconTopBar"
+                android:src="@drawable/top_bar_search"
+                android:layout_width="@dimen/top_bar_search_icon_size"
+                android:layout_height="@dimen/top_bar_search_icon_size" />
+            <TextView
+                android:id="@+id/cancelSearchTopBar"
+                android:layout_marginLeft="@dimen/top_bar_item_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/top_bar_text_size_2"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/top_bar_cancel"/>
+            <EditText
+                android:gravity="center_vertical"
+                android:textSize="@dimen/top_bar_text_size_3"
+                android:paddingLeft="@dimen/top_bar_edittext_padding"
+                android:paddingRight="@dimen/top_bar_edittext_padding"
+                android:textColorHint="@color/colorFadeWhite"
+                android:textColor="@color/colorWhite"
+                android:hint="@string/top_bar_search_hint"
+                android:background="@drawable/top_bar_search_edit_text_background"
+                android:layout_toRightOf="@id/searchLeftIconTopBar"
+                android:layout_toLeftOf="@id/cancelSearchTopBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

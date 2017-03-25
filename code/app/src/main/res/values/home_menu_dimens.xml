@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_menu_padding_5">5dp</dimen>
+    <dimen name="home_menu_padding_10">10dp</dimen>
+    <dimen name="home_menu_padding_20">20dp</dimen>
+    <dimen name="home_menu_title_height">70dp</dimen>
+    <dimen name="home_menu_title_image_size">30dp</dimen>
+    <dimen name="home_menu_title_play_button_width">30dp</dimen>
+    <dimen name="home_menu_title_text_size_1">15dp</dimen>
+    <dimen name="home_menu_title_text_size_2">20dp</dimen>
+
+    <dimen name="home_menu_audio_item_height">60dp</dimen>
+    <dimen name="home_menu_audio_item_padding_2">2dp</dimen>
+    <dimen name="home_menu_audio_item_padding_5">5dp</dimen>
+    <dimen name="home_menu_audio_item_padding_10">10dp</dimen>
+    <dimen name="home_menu_audio_name_text_size">15dp</dimen>
+    <dimen name="home_menu_audio_artist_text_size">13dp</dimen>
+    <dimen name="home_menu_audio_name_height">25dp</dimen>
+    <dimen name="home_menu_audio_artist_height">20dp</dimen>
+    <dimen name="home_menu_audio_cover_size">50dp</dimen>
+    <dimen name="home_menu_audio_download_icon_size">20dp</dimen>
+    <dimen name="home_menu_audio_ranking_size">25dp</dimen>
+    <dimen name="home_menu_audio_ranking_text_size">20dp</dimen>
+
+    <dimen name="home_menu_video_item_height">60dp</dimen>
+    <dimen name="home_menu_video_item_padding_2">2dp</dimen>
+    <dimen name="home_menu_video_item_padding_5">5dp</dimen>
+    <dimen name="home_menu_video_item_padding_10">10dp</dimen>
+    <dimen name="home_menu_video_name_text_size">15dp</dimen>
+    <dimen name="home_menu_video_artist_text_size">13dp</dimen>
+    <dimen name="home_menu_video_name_height">25dp</dimen>
+    <dimen name="home_menu_video_artist_height">20dp</dimen>
+    <dimen name="home_menu_video_cover_size">50dp</dimen>
+    <dimen name="home_menu_video_download_icon_size">20dp</dimen>
+    <dimen name="home_menu_video_ranking_size">25dp</dimen>
+    <dimen name="home_menu_video_ranking_text_size">20dp</dimen>
+
+
+</resources>

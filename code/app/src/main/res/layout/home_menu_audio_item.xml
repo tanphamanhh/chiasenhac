@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/home_menu_audio_item_height"
+    android:padding="@dimen/home_menu_audio_item_padding_5">
+
+    <RelativeLayout
+        android:layout_marginRight="@dimen/home_menu_audio_item_padding_5"
+        android:layout_centerVertical="true"
+        android:id="@+id/rlLayRankingHomeMenuAudioItem"
+        android:layout_width="@dimen/home_menu_audio_ranking_size"
+        android:layout_height="@dimen/home_menu_audio_ranking_size">
+
+        <ImageView
+            android:id="@+id/imgStarHomeMenuAudioItem"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home_menu_ranking_star"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/txvNoHomeMenuAudioItem"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:src="@drawable/home_menu_album"
+        android:id="@+id/imgCoverHomeMenuAudioItem"
+        android:layout_toRightOf="@id/rlLayRankingHomeMenuAudioItem"
+        android:layout_width="@dimen/home_menu_audio_cover_size"
+        android:layout_height="@dimen/home_menu_audio_cover_size"
+
+        android:layout_alignParentTop="true" />
+    <ImageView
+        android:id="@+id/imgDownloadHomeMenuAudioItem"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/home_menu_download_to_device"
+        android:layout_width="@dimen/home_menu_audio_download_icon_size"
+        android:layout_height="@dimen/home_menu_audio_download_icon_size" />
+    <ImageView
+        android:id="@+id/imgAddToPlaylistHomeMenuAudioItem"
+        android:layout_marginRight="@dimen/home_menu_audio_item_padding_5"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/imgDownloadHomeMenuAudioItem"
+        android:src="@drawable/home_menu_add_playlist"
+        android:layout_width="@dimen/home_menu_audio_download_icon_size"
+        android:layout_height="@dimen/home_menu_audio_download_icon_size" />
+    <!--<TextView-->
+        <!--android:text="@string/home_menu_lossless_icon"-->
+        <!--android:background="@drawable/home_menu_lossless_icon_bg"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <LinearLayout
+        android:id="@+id/llLytAudioDetailHomeMenuAudioItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/home_menu_audio_item_padding_5"
+        android:layout_toLeftOf="@id/imgAddToPlaylistHomeMenuAudioItem"
+        android:layout_toRightOf="@id/imgCoverHomeMenuAudioItem"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txvTitleHomeMenuAudioItem"
+            android:ellipsize="end"
+            android:lines="1"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_menu_audio_name_height"
+            android:layout_marginBottom="@dimen/home_menu_audio_item_padding_2"
+            android:text="@string/home_menu_default_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/home_menu_audio_name_text_size" />
+
+        <TextView
+            android:ellipsize="end"
+            android:lines="1"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_menu_audio_artist_height"
+            android:text="@string/home_menu_default_title"
+            android:textSize="@dimen/home_menu_audio_artist_text_size"
+            android:id="@+id/txvArtistHomeMenuAudioItem" />
+    </LinearLayout>
+
+
+</RelativeLayout>

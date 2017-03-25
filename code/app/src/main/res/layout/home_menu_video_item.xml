@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/home_menu_video_item_height"
+    android:padding="@dimen/home_menu_video_item_padding_5">
+
+    <RelativeLayout
+        android:id="@+id/rlLayRankingHomeMenuVideoItem"
+        android:layout_width="@dimen/home_menu_video_ranking_size"
+        android:layout_height="@dimen/home_menu_video_ranking_size"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/home_menu_video_item_padding_5">
+
+        <ImageView
+            android:id="@+id/imgStarHomeMenuVideoItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home_menu_ranking_star" />
+
+        <TextView
+            android:id="@+id/txvNoHomeMenuVideoItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgCoverHomeMenuVideoItem"
+        android:layout_width="@dimen/home_menu_video_cover_size"
+        android:layout_height="@dimen/home_menu_video_cover_size"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/rlLayRankingHomeMenuVideoItem"
+
+        android:src="@drawable/home_menu_album" />
+
+    <ImageView
+        android:id="@+id/imgDownloadHomeMenuVideoItem"
+        android:layout_width="@dimen/home_menu_video_download_icon_size"
+        android:layout_height="@dimen/home_menu_video_download_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/home_menu_download_to_device" />
+
+    <LinearLayout
+        android:id="@+id/llLytVideoDetailHomeMenuVideoItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/home_menu_video_item_padding_5"
+        android:layout_toLeftOf="@id/imgDownloadHomeMenuVideoItem"
+        android:layout_toRightOf="@id/imgCoverHomeMenuVideoItem"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txvTitleHomeMenuVideoItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_menu_video_name_height"
+            android:layout_marginBottom="@dimen/home_menu_video_item_padding_2"
+            android:ellipsize="end"
+            android:gravity="bottom"
+            android:lines="1"
+            android:text="@string/home_menu_default_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/home_menu_video_name_text_size" />
+
+        <TextView
+            android:id="@+id/txvArtistHomeMenuVideoItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_menu_video_artist_height"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:lines="1"
+            android:text="@string/home_menu_default_title"
+            android:textSize="@dimen/home_menu_video_artist_text_size" />
+    </LinearLayout>
+
+
+</RelativeLayout>
